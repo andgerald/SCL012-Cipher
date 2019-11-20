@@ -1,1 +1,70 @@
-/* Acá va tu código */
+body{
+    background-image:url(https://raru.co.za/cover/2018/07/20/6752663-l.jpg?v=1532093931);
+    background-repeat: no-repeat;opacity: 0.9;
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+    
+}
+.intro{
+background-color:rgba(255, 196, 35, 0.938);
+width: 50%;
+height: 100px;
+margin-left: 24%;
+font-size: 110%;
+}
+.title {
+background-color: rgb(150, 14, 14);
+border-radius: 15px;
+width: 500px;
+height: 55px;
+margin-left: 33%;
+font-size:50px ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+margin-top: -2%;
+}
+
+.codif{
+
+padding-top: 20px;
+margin-left:22%;
+}
+.posicion{
+background-color:rgba(255, 196, 35, 0.938);
+margin-left:35% ;
+width: 21%;
+font-family:Arial;
+}
+
+.encode{
+
+    margin-left: 60%;
+    margin-top: -1.8%;
+}
+.decof{ 
+   
+   padding-top: 10px;
+   margin-left: 22%;
+}
+.clean{
+
+margin-left: 67%;   
+padding: .5px 10px;
+margin-top: -0.20%;
+
+}
+.buttons{
+width:100px ;
+height: 30px;
+background: rgba(255, 196, 35, 0.938);
+}
+.textodecod{
+   background: rgb(150, 14, 14);
+   font-family: 'Franklin Gothic Medium';
+   
+}
+.positions{
+width: 30px; 
+height: 18px;
+background: rgb(150, 14, 14);
+}

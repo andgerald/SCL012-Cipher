@@ -2,12 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Diario de Vida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+       <div class="title">
+          <p>CIFRADO POTTER </p>
+       </div> 
+ <div class="intro">
+<p>¿Cansado de que tus parientes o amigos lean tu informacion privada?, Cifrado Potter te ofrece poder cifrar y decifrar informacion privada que no desees que se conozca y viralize </p>
+ </div>
+          <div class="codif">
+           <textarea name="text" id="cod" cols="100" rows="10" class="textodecod" ></textarea>
+          </div>
+    
+          <div class="posicion">
+              <label>  <span title="El desplazamiento indica la cantidad de veces que se movera la letra ej: A con desplazamiento 1 se convierte en B"><strong>Ingrese el Nº de desplazamiento</strong></span> </label>
+              <input type="number"  id="position"  class="positions">
+           </div>
+
+             <div class="encode">
+                <button type="button" class="buttons" id="boton1" ><strong>Codificar</strong></button>
+                <button type="button"  class="buttons" id= "boton2"> <strong>Decodificar</strong></button>
+             </div>
+         
+             <div class="decof">
+                <textarea name="text" id="deco" class="textodecod" cols="100" rows="10" ></textarea>
+             </div>
+             
+             <div class="clean">
+                       <a href="index.html">  <button type="reset" value="borrar" class="buttons"   id= "delete" ><strong>Limpiar</strong></button> </a>
+             </div>
+             
+         
+
+     <div id="root">
+    
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
