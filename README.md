@@ -15,73 +15,29 @@ Diseño de experiencia de usuario
 - Testeo e Iteración
 
 Primero realice mi prototipo en papel para tener una idea de como distribuir los espacios.
+![](img/por.jpg)
+
+Luego hice el prototipo de baja calidad.
 ![](img/proto.png)
-## Checklist
-Esta sección está para ayudarte a llevar un control de los objetivos de aprendizaje y las funcionalidades.
 
+y finalmente realice el de alta, pero sin funcionalidad, solo en tema de diseño.
+![](img/proo.png)
 
+- Al realizar testeos con familiares y compañeras pude realizar los cambios necesarios para que se vea mas amigable con el publico objetivo, llegando al siguiente resultado.
+![](img/final.png)
 
+## Realizacion de proyecto
+Para la realizacion del proyecto utilice 
+- HTML
+- CSS
+- JAVASCRIPT
+- CIPHER
 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+## Test
 
-Mira Deployment para conocer como desplegar el proyecto.
+- Se realizaron test de la funcionalidad de cipher el cual en primera instancia arrojo errores que fueron corregidos.
 
-Pre-requisitos clipboard
-Que cosas necesitas para instalar el software y como instalarlas
+## Funcionalidad
 
-Da un ejemplo
-Instalación wrench
-Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose
-
-Dí cómo será ese paso
-
-Da un ejemplo
-Y repite
-
-hasta finalizar
-Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo
-
-Ejecutando las pruebas gear
-Explica como ejecutar las pruebas automatizadas para este sistema
-
-Analice las pruebas end-to-end nut_and_bolt
-Explica que verifican estas pruebas y por qué
-
-Da un ejemplo
-Y las pruebas de estilo de codificación keyboard
-Explica que verifican estas pruebas y por qué
-
-Da un ejemplo
-Deployment package
-Agrega notas adicionales sobre como hacer deploy
-
-Construido con hammer_and_wrench
-Menciona las herramientas que utilizaste para crear tu proyecto
-
-Dropwizard - El framework web usado
-Maven - Manejador de dependencias
-ROME - Usado para generar RSS
-Contribuyendo paperclips
-Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-Wiki book
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra Wiki
-
-Versionado pushpin
-Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
-
-Autores black_nib
-Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-
-Andrés Villanueva - Trabajo Inicial - villanuevand
-Fulanito Detal - Documentación - fulanitodetal
-También puedes mirar la lista de todos los contribuyentes quíenes han participado en este proyecto.
-
-Licencia page_facing_up
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
-
-Expresiones de Gratitud gift
-Comenta a otros sobre este proyecto loudspeaker
-Invita una cerveza beer a alguien del equipo.
-Da las gracias públicamente nerd_face.
-etc.
+Se debe ingresar una letra, texto o frase en el primer recuadro, luego ingresar el numero de desplazamiento, el cual corresponde a la cantidad de veces que se desplazara una letra, al realizar click en codificar nos dara como resultado una palabra cifrada,
+y al hacer click en decifrar nos  volvera al resultado ingresado primeramente, para  finalizar es posible volver a utilizar presionando el boton limpiar.
